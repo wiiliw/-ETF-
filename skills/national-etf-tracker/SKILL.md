@@ -67,6 +67,22 @@ python skills/national-etf-tracker/scripts/build_dashboard.py \
 
 若只想用已有统一 CSV，可直接运行最后一个命令；脚本会自动写行业汇总 CSV。
 
+## GitHub 大文件分片
+`data/processed/etf_shares.csv` 和 `output/etf_detail.csv` 体积较大，仓库使用分片目录保存：
+- `data/processed/etf_shares_parts/etf_shares.part-*.csv`
+- `output/etf_detail_parts/etf_detail.part-*.csv`
+
+需要恢复完整 CSV 时：
+```bash
+python skills/national-etf-tracker/scripts/split_csv.py merge \
+  --parts-glob 'skills/national-etf-tracker/data/processed/etf_shares_parts/*.csv' \
+  --output skills/national-etf-tracker/data/processed/etf_shares.csv
+python skills/national-etf-tracker/scripts/split_csv.py merge \
+  --parts-glob 'skills/national-etf-tracker/output/etf_detail_parts/*.csv' \
+  --output skills/national-etf-tracker/output/etf_detail.csv
+```
+
+
 ## 解释注意
 - 单日份额大增可能来自联接基金、做市、套利或数据修订，不等于单日买入。
 - 不同数据源的披露时点、单位、复权和代码格式可能不同，先做质量检查再比较。
