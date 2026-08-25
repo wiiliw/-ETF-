@@ -213,6 +213,22 @@ skills/national-etf-tracker/output/industry_etf_membership_2026.csv
 
 名称关键词分类仅用于研究辅助，建议对重要 ETF 进行人工复核。
 
+## 效果图预览
+
+### 综合趋势页面
+
+[打开在线 HTML 看板](skills/national-etf-tracker/output/trend_charts_balance_industry_2026.html)
+
+![宽基 ETF 余额代理趋势](skills/national-etf-tracker/output/broad_estimated_balance_2024_to_present.png)
+
+![2026 年 6—8 月行业 ETF 趋势](skills/national-etf-tracker/output/industry_trend_2026_06_07_08.png)
+
+![2024 年至今宽基趋势](skills/national-etf-tracker/output/trend_broad_2024_to_present.png)
+
+![2024 年至今行业趋势](skills/national-etf-tracker/output/trend_industries_2024_to_present.png)
+
+> 图片均为仓库内生成结果。行业图只统计已通过映射或名称规则归入明确行业的 ETF；宽基图是 ETF 总份额余额代理，不是监管披露的国家队绝对持仓。
+
 ## 趋势图与结果
 
 ### 综合趋势页面
