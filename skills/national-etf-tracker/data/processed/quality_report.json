@@ -1,13 +1,13 @@
 {
-  "input_rows": 746058,
-  "output_rows": 744445,
+  "input_rows": 762292,
+  "output_rows": 760679,
   "invalid_rows_dropped": 0,
   "duplicate_key_rows_seen": 3226,
   "date_min": "2024-01-02",
-  "date_max": "2026-08-21",
+  "date_max": "2026-09-04",
   "markets": {
-    "SH": 427285,
-    "SZ": 317160
+    "SH": 436268,
+    "SZ": 324411
   },
   "files": [
     "skills/national-etf-tracker/data/raw/annual/sse_2024.csv",
@@ -17,11 +17,13 @@
     "skills/national-etf-tracker/data/raw/annual/sse_2025_q4.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_apr.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_aug.csv",
+    "skills/national-etf-tracker/data/raw/annual/sse_2026_aug_gap.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_aug_update.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_jul.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_jun.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_may.csv",
     "skills/national-etf-tracker/data/raw/annual/sse_2026_q1.csv",
+    "skills/national-etf-tracker/data/raw/annual/sse_2026_sep.csv",
     "skills/national-etf-tracker/data/raw/annual/szse_2024_h1.csv",
     "skills/national-etf-tracker/data/raw/annual/szse_2024_h2.csv",
     "skills/national-etf-tracker/data/raw/annual/szse_2025_q1.csv",
@@ -31,6 +33,7 @@
     "skills/national-etf-tracker/data/raw/annual/szse_2026_aug_update.csv",
     "skills/national-etf-tracker/data/raw/annual/szse_2026_q1.csv",
     "skills/national-etf-tracker/data/raw/annual/szse_2026_q2.csv",
-    "skills/national-etf-tracker/data/raw/annual/szse_2026_q3.csv"
+    "skills/national-etf-tracker/data/raw/annual/szse_2026_q3.csv",
+    "skills/national-etf-tracker/data/raw/annual/szse_2026_sep.csv"
   ]
 }
